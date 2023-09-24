@@ -1,0 +1,11 @@
+[package]
+name = "fox-job"
+description = "Job executor."
+license = "MPL-2.0"
+repository = "https://github.com/fox-tools/job"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.1", features = ["derive"] }
+regex = "1.7.1"
